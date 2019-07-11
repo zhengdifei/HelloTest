@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sanbot.HandTestActivity">
+
+    <Button
+        android:id="@+id/hand_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="handup"/>
+
+    <Button
+        android:id="@+id/hand_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="handdown"/>
+
+    <Button
+        android:id="@+id/hand_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hand reset"/>
+
+    <Button
+        android:id="@+id/hand_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hand up 30"/>
+
+    <Button
+        android:id="@+id/hand_btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hand down 50"/>
+
+    <Button
+        android:id="@+id/hand_btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hand down 270"/>
+    <Button
+        android:id="@+id/hand_btn7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ab hand up 30"/>
+
+    <Button
+        android:id="@+id/hand_btn8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ab hand down 50"/>
+
+    <Button
+        android:id="@+id/hand_btn9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ab hand down 270"/>
+</LinearLayout>

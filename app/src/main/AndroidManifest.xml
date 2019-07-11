@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hellotest">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".socket.TcpClientActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".socket.TcpServerActivity">
+
+        </activity>
+        <activity android:name=".socket.UdpServerActivity">
+
+        </activity>
+        <activity android:name=".socket.UdpClientActivity" />
+        <activity android:name=".cameraTest.CameraTest4Activity" />
+        <activity android:name=".cameraTest.CameraTest3Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".cameraTest.CameraTestActivity" />
+        <activity android:name=".camera.CameraTestActivity" />
+        <activity android:name=".datastorage.RoomTestActivity" />
+        <activity android:name=".sanbot.MediaTestActivity" />
+        <activity android:name=".sanbot.WheelTestActivity" />
+        <activity android:name=".sanbot.HandTestActivity" />
+        <activity android:name=".broadcast.BroadcastReceiverActivity" />
+        <activity android:name=".HandlerTwoActivity" />
+        <activity android:name=".HandlerOneActivity" />
+        <activity android:name=".LifecycleActivity" />
+        <activity android:name=".GlideActivity" />
+        <activity android:name=".mvp.MvpActivity" />
+        <activity android:name=".MvcActivity" />
+        <activity android:name=".Test3" />
+        <activity android:name=".Test2" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

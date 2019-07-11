@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".cameraTest.CameraTestActivity">
+
+    <SurfaceView
+        android:id="@+id/surfaceView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/startPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start preview"/>
+
+    <Button
+        android:id="@+id/stopPreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop preview"/>
+
+    <Button
+        android:id="@+id/takePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="take photo"/>
+
+    <Button
+        android:id="@+id/startRecorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start recorder"/>
+
+    <Button
+        android:id="@+id/stopRecorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stop recorder"/>
+</LinearLayout>
